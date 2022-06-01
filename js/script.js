@@ -27,7 +27,8 @@ const movieDB = {
 
 const promoAdv = document.querySelector('.promo__adv'),
       promoImg = promoAdv.querySelectorAll('img'),
-      genre = document.querySelector('.promo__genre');
+      genre = document.querySelector('.promo__genre'),
+      promoBg = document.querySelector('.promo__bg');
 
 
 /* Remove promo img */
@@ -40,6 +41,9 @@ promoImg.forEach(img => {
 genre.textContent = 'драма';
 /* Rename genre */
 /* --------------------- */
+/* Change bg */
+promoBg.style.background = 'url(../img/bg.jpg)';
+/* Change bg */
 
 
 console.log(promoImg);
