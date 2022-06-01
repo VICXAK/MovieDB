@@ -25,3 +25,21 @@ const movieDB = {
 };
 
 
+const promoAdv = document.querySelector('.promo__adv'),
+      promoImg = promoAdv.querySelectorAll('img'),
+      genre = document.querySelector('.promo__genre');
+
+
+/* Remove promo img */
+promoImg.forEach(img => {
+    img.remove();
+})
+/* Remove promo img */
+/* --------------------- */
+/* Rename genre */
+genre.textContent = 'драма';
+/* Rename genre */
+/* --------------------- */
+
+
+console.log(promoImg);
